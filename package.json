@@ -11,7 +11,7 @@
   "dependencies": {
     "flexbox-grid-stylus": "^3.2.2",
     "flexboxgrid": "^6.3.1",
-    "fullpage.js": "^2.9.2",
+    "fullpage.js": "^2.9.3",
     "gulp": "^3.9.1",
     "gulp-uglifycss": "^1.0.6",
     "normalize-styl": "^4.1.1",

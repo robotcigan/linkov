@@ -2,18 +2,48 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>Линьково поле</title>
     <link rel="stylesheet" href="styles/css/vendor.css"/>
     <link rel="stylesheet" href="styles/css/main.css"/>
+    <link rel="stylesheet" href="styles/css/akrobat.css"/>
   </head>
   <body>
     <div class="preloader">
       <div class="preloader__lense">
-        <div class="preloader__lense_first"><img src="img/linse/1.png" alt=""/></div>
-        <div class="preloader__lense_second"><img src="img/linse/2.png" alt=""/></div>
-        <div class="preloader__lense_third"><img src="img/linse/3.png" alt=""/></div>
+        <div class="preloader__lense_item preloader__lense_item--first"></div>
+      </div>
+    </div>
+    <div class="circles">
+      <div class="circles__circle circles__circle--first"></div>
+      <div class="circles__circle circles__circle--second"></div>
+      <div class="circles__circle circles__circle--third"></div>
+    </div>
+    <div class="menu__circle-container">
+      <div class="menu__circle"></div>
+    </div>
+    <div class="menu">
+      <div class="grid grid--container grid">
+        <div class="row">
+          <div class="col--lg-4 col--lg-offset-4 col--xs-6">
+            <div class="menu-logo">
+              <div class="logo logo--menu"></div>
+            </div>
+          </div>
+          <div class="col--lg-4 col--xs-6">
+            <div class="close-container">
+              <div class="close js-close-menu"></div>
+            </div>
+          </div>
+        </div>
+        <div class="sitemap">
+          <div class="row menu__body">
+            <div class="col col--lg-3 col--lg-offset-1"><a href="" class="sitemap__link sitemap__link--big">О компании</a><a href="" class="sitemap__link sitemap__link">О компании</a><a href="" class="sitemap__link sitemap__link">Как мы работаем </a><a href="" class="sitemap__link sitemap__link">Стоимости услуг</a><a href="" class="sitemap__link sitemap__link">Контактная информация</a><a href="" class="sitemap__link sitemap__link--big">Наши проекты</a><a href="" class="sitemap__link sitemap__link--big">Цены</a><a href="" class="sitemap__link sitemap__link--big">Этапы ландшафтного проектирования</a><a href="" class="sitemap__link sitemap__link">Сбор исходных данных</a><a href="" class="sitemap__link sitemap__link">Эскизное проектирование</a><a href="" class="sitemap__link sitemap__link">Подготовка генерального плана</a><a href="" class="sitemap__link sitemap__link">Разработка стиля участка</a><a href="" class="sitemap__link sitemap__link">Подготовка комплекта рабочих чертежей</a></div>
+            <div class="col col--lg-3"><a href="" class="sitemap__link sitemap__link--big">Услуги</a><a href="" class="sitemap__link sitemap__link">Ландшафтное проектирование частного участка</a><a href="" class="sitemap__link sitemap__link">Ландшафтное проектирование общественной территории </a><a href="" class="sitemap__link sitemap__link">Ландшафтный дизайн отдельных зон</a><a href="" class="sitemap__link sitemap__link">Дизайн и проектирование объектов</a><a href="" class="sitemap__link sitemap__link">Проектирование сооружений и малых архитектурных форм</a><a href="" class="sitemap__link sitemap__link">Реализация проекта</a><a href="" class="sitemap__link sitemap__link">Авторский надзор</a><a href="" class="sitemap__link sitemap__link">Уход за территорий (Садом)</a><a href="" class="sitemap__link sitemap__link--big">Важно!</a><a href="" class="sitemap__link sitemap__link">Что важно знать заказчику</a><a href="" class="sitemap__link sitemap__link">Какие исходные данные нужно подготовить</a><a href="" class="sitemap__link sitemap__link">Что нужно учитывать при проектировании</a><a href="" class="sitemap__link sitemap__link">Что дает каждый этап проекта</a></div>
+            <div class="col col--lg-3"><a href="" class="sitemap__link sitemap__link--big">Пакеты услуг</a><a href="" class="sitemap__link sitemap__link">Пакет ландшафтного проектирования «минимальный»</a><a href="" class="sitemap__link sitemap__link">Пакет ландшафтного проектирования «оптимум»</a><a href="" class="sitemap__link sitemap__link">Пакет ландшафтного проектирования «максимум»</a><a href="" class="sitemap__link sitemap__link">Дополнительные услуги</a><a href="" class="sitemap__link sitemap__link--big">Энциклопедия</a><a href="" class="sitemap__link sitemap__link">Планировки в ландшафтном дизайне</a><a href="" class="sitemap__link sitemap__link">Стили в ландшафтном дизайне</a><a href="" class="sitemap__link sitemap__link">Основные растения</a><a href="" class="sitemap__link sitemap__link">Основные правила ландшафтного проектирования</a><a href="" class="sitemap__link sitemap__link">Нюансы проектирования маленького участка</a><a href="" class="sitemap__link sitemap__link">Малые архитектурные формы</a><a href="" class="sitemap__link sitemap__link">Водоемы в ландшафтном дизайне</a><a href="" class="sitemap__link sitemap__link">Биоплато (примерно три статьи разных, надо подумать над подтемами)</a><a href="" class="sitemap__link sitemap__link">Основные объекты</a><a href="" class="sitemap__link sitemap__link">Выставки и мероприятия для ландшафтных дизайнеров</a><a href="" class="sitemap__link sitemap__link">Терминология</a><a href="" class="sitemap__link sitemap__link">Виды цветников</a></div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="main-page">
@@ -22,28 +52,26 @@
           <div class="col col--lg-5">
             <nav class="main-nav"><a href="" class="main-nav__link">О компании</a><a href="" class="main-nav__link">Услуги</a><a href="" class="main-nav__link">Наши проекты</a><a href="" class="main-nav__link">Цены</a></nav>
           </div>
-          <div class="col col--lg-2">
-            <div class="main-header__logo">
-              <div class="logo"><a href=""></a></div>
-            </div>
+          <div class="col col--lg-2 col--xs-4">
+            <div class="main-header__logo"><a href="" class="logo"></a></div>
             <div class="main-header__title">Линьково поле</div>
             <div class="main-header__subtitle">проектирование, озеленение &amp; благоустройство</div>
           </div>
-          <div class="col col--lg-5">
+          <div class="col col--lg-5 col--xs-8">
             <div class="main-header__city">
               <div class="main-header__city_text">Москва</div>
               <div class="main-header__city_icon"></div>
             </div>
             <div class="main-header__phone">+ 7  910  404-24-33</div>
-            <div class="menu">
-              <div class="menu__text">Куча всего</div>
-              <div class="menu__icon"><span></span><span></span><span></span></div>
+            <div class="menu-toggle js-open-menu">
+              <div class="menu-toggle__text">Куча всего</div>
+              <div class="menu-toggle__icon"><span></span><span></span><span></span></div>
             </div>
           </div>
         </div>
       </header>
       <main class="main-content grid grid--container grid--no-gutters">
-        <div class="row">
+        <div class="row slide slide--active">
           <div class="col col--lg-1">
             <div class="main-content__numbers">
               <div class="main-content__numbers_number main-content__numbers_number--active">01</div>
@@ -55,26 +83,58 @@
           </div>
           <div class="col col--lg-3">
             <div class="main-content__main-text">
-              <div class="main-content__main-text_ico"></div>
-              <div class="main-content__main-text_text">Создали более</div>
-              <div class="main-content__main-text_number">170 садов</div>
+              <div class="row">
+                <div class="col--lg-12 col--xs-3">
+                  <div class="main-content__main-text_ico"></div>
+                </div>
+                <div class="col--lg-12 col--xs-9">
+                  <div class="main-content__main-text_container"><span class="main-content__main-text_text">Создали более</span></div>
+                  <div class="main-content__main-text_container"><span class="main-content__main-text_number">170 садов</span></div>
+                </div>
+              </div>
             </div>
           </div>
           <div class="col col--lg-4">
-            <div class="slider">
-              <div class="slider__slide"><img src="img/img-1.jpg" alt=""/></div>
-              <div class="slider__slide"><img src="img/img-1.jpg" alt=""/></div>
-              <div class="slider__slide"><img src="img/img-1.jpg" alt=""/></div>
-              <div class="slider__slide"><img src="img/img-1.jpg" alt=""/></div>
-              <div class="slider__slide"><img src="img/img-1.jpg" alt=""/></div>
-              <div class="slider__slide"><img src="img/img-1.jpg" alt=""/></div>
+            <div class="main-img">
+              <div class="main-img__img"><img src="img/img-1.jpg" alt=""/></div>
+            </div>
+          </div>
+          <div class="col col--lg-3 col--lg-offset-1 col--xs">
+            <div class="main-content__right-side">
+              <div class="main-content__right-side_text">
+                <p>Каждый проект для нас - ценность. В него мы вложили частичку себя.</p>
+                <p>Мы этим гордимся.</p>
+              </div><a href="" class="btn btn--primary">заинтригованы</a>
+            </div>
+          </div>
+        </div>
+        <div class="row slide">
+          <div class="col col--lg-1">
+            <div class="main-content__numbers">
+              <div class="main-content__numbers_number">01</div>
+              <div class="main-content__numbers_number main-content__numbers_number--active">02</div>
+              <div class="main-content__numbers_number">03</div>
+              <div class="main-content__numbers_number">04</div>
+              <div class="main-content__numbers_number">05</div>
+            </div>
+          </div>
+          <div class="col col--lg-3">
+            <div class="main-content__main-text">
+              <div class="main-content__main-text_ico"></div>
+              <div class="main-content__main-text_container"><span class="main-content__main-text_text">Работаем для вас</span></div>
+              <div class="main-content__main-text_container"><span class="main-content__main-text_number">с 1999 года</span></div>
+            </div>
+          </div>
+          <div class="col col--lg-4">
+            <div class="main-img">
+              <div class="main-img__img"><img src="img/img-1.jpg" alt=""/></div>
             </div>
           </div>
           <div class="col col--lg-3 col--lg-offset-1">
             <div class="main-content__right-side">
               <div class="main-content__right-side_text">
-                <p>Каждый проект для нас - ценность. В него мы вложили частичку себя.</p>
-                <p>Мы этим гордимся.</p>
+                <p>Все ошибки уже совершены, и сделаны выводы. </p>
+                <p>Для Вас же - только высокий профессионализм!</p>
               </div><a href="" class="btn btn--primary">заинтригованы</a>
             </div>
           </div>
@@ -88,12 +148,18 @@
               <div class="icon icon--vk"></div></a><a href="" class="social-icons__icon">
               <div class="icon icon--instagram"></div></a></div>
           <div class="col col--lg-3 col--lg-offset-5">
-            <div class="call-specialist">
-              <div class="call-specialist__icon"></div><a href="" class="call-specialist__link link">Вызвать специалиста</a>
-            </div>
-            <div class="main-footer__links">
-              <div class="main-footer__copyright">COPYRIGHT 2017</div>
-              <div class="main-footer__webformula">Создание сайта &mdash; <a href="">Webformula</a></div>
+            <div class="row">
+              <div class="col--lg-12 col--xs-6">
+                <div class="call-specialist">
+                  <div class="call-specialist__icon"></div><a href="" class="call-specialist__link link">Вызвать специалиста</a>
+                </div>
+              </div>
+              <div class="col--lg-12 col--xs-6">
+                <div class="main-footer__links">
+                  <div class="main-footer__copyright">COPYRIGHT 2017</div>
+                  <div class="main-footer__webformula">Создание сайта &mdash; <a href="">Webformula</a></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -101,6 +167,7 @@
     </div>
   </body>
   <script src="js/jquery.min.js"></script>
-  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.mousewheel.js"></script>
+  <script src="js/hammer.min.js"></script>
   <script src="js/main.js"></script>
 </html>

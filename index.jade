@@ -2,20 +2,83 @@
 html(lang="ru")
 	head
 		meta(charset="utf-8")
-		meta(name="viewport", content="width=device-width, initial-scale=1")
+		meta(name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1")
 		meta(http-equiv="X-UA-Compatible", content="IE=edge")
 		title Линьково поле
 		link(rel="stylesheet", href="styles/css/vendor.css")
 		link(rel="stylesheet", href="styles/css/main.css")
+		link(rel="stylesheet", href="styles/css/akrobat.css")
 	body
 		.preloader
 			.preloader__lense
-				.preloader__lense_first
-					img(src="img/linse/1.png", alt="")
-				.preloader__lense_second
-					img(src="img/linse/2.png", alt="")
-				.preloader__lense_third
-					img(src="img/linse/3.png", alt="")
+				.preloader__lense_item.preloader__lense_item--first
+				//- .preloader__lense_item.preloader__lense_item--second
+				//- .preloader__lense_item.preloader__lense_item--third
+		.circles
+			.circles__circle.circles__circle--first
+			.circles__circle.circles__circle--second
+			.circles__circle.circles__circle--third
+		.menu__circle-container
+			.menu__circle
+		.menu
+			.grid.grid--container.grid
+				.row
+					.col--lg-4.col--lg-offset-4.col--xs-6
+						.menu-logo
+							.logo.logo--menu
+					.col--lg-4.col--xs-6
+						.close-container
+							.close.js-close-menu
+				.sitemap
+					.row.menu__body
+						.col.col--lg-3.col--lg-offset-1
+							a(href="").sitemap__link.sitemap__link--big О компании
+							a(href="").sitemap__link.sitemap__link О компании
+							a(href="").sitemap__link.sitemap__link Как мы работаем 
+							a(href="").sitemap__link.sitemap__link Стоимости услуг
+							a(href="").sitemap__link.sitemap__link Контактная информация
+							a(href="").sitemap__link.sitemap__link--big Наши проекты
+							a(href="").sitemap__link.sitemap__link--big Цены
+							a(href="").sitemap__link.sitemap__link--big Этапы ландшафтного проектирования
+							a(href="").sitemap__link.sitemap__link Сбор исходных данных
+							a(href="").sitemap__link.sitemap__link Эскизное проектирование
+							a(href="").sitemap__link.sitemap__link Подготовка генерального плана
+							a(href="").sitemap__link.sitemap__link Разработка стиля участка
+							a(href="").sitemap__link.sitemap__link Подготовка комплекта рабочих чертежей
+						.col.col--lg-3
+							a(href="").sitemap__link.sitemap__link--big Услуги
+							a(href="").sitemap__link.sitemap__link Ландшафтное проектирование частного участка
+							a(href="").sitemap__link.sitemap__link Ландшафтное проектирование общественной территории 
+							a(href="").sitemap__link.sitemap__link Ландшафтный дизайн отдельных зон
+							a(href="").sitemap__link.sitemap__link Дизайн и проектирование объектов
+							a(href="").sitemap__link.sitemap__link Проектирование сооружений и малых архитектурных форм
+							a(href="").sitemap__link.sitemap__link Реализация проекта
+							a(href="").sitemap__link.sitemap__link Авторский надзор
+							a(href="").sitemap__link.sitemap__link Уход за территорий (Садом)
+							a(href="").sitemap__link.sitemap__link--big Важно!
+							a(href="").sitemap__link.sitemap__link Что важно знать заказчику
+							a(href="").sitemap__link.sitemap__link Какие исходные данные нужно подготовить
+							a(href="").sitemap__link.sitemap__link Что нужно учитывать при проектировании
+							a(href="").sitemap__link.sitemap__link Что дает каждый этап проекта
+						.col.col--lg-3
+							a(href="").sitemap__link.sitemap__link--big Пакеты услуг
+							a(href="").sitemap__link.sitemap__link Пакет ландшафтного проектирования «минимальный»
+							a(href="").sitemap__link.sitemap__link Пакет ландшафтного проектирования «оптимум»
+							a(href="").sitemap__link.sitemap__link Пакет ландшафтного проектирования «максимум»
+							a(href="").sitemap__link.sitemap__link Дополнительные услуги
+							a(href="").sitemap__link.sitemap__link--big Энциклопедия
+							a(href="").sitemap__link.sitemap__link Планировки в ландшафтном дизайне
+							a(href="").sitemap__link.sitemap__link Стили в ландшафтном дизайне
+							a(href="").sitemap__link.sitemap__link Основные растения
+							a(href="").sitemap__link.sitemap__link Основные правила ландшафтного проектирования
+							a(href="").sitemap__link.sitemap__link Нюансы проектирования маленького участка
+							a(href="").sitemap__link.sitemap__link Малые архитектурные формы
+							a(href="").sitemap__link.sitemap__link Водоемы в ландшафтном дизайне
+							a(href="").sitemap__link.sitemap__link Биоплато (примерно три статьи разных, надо подумать над подтемами)
+							a(href="").sitemap__link.sitemap__link Основные объекты
+							a(href="").sitemap__link.sitemap__link Выставки и мероприятия для ландшафтных дизайнеров
+							a(href="").sitemap__link.sitemap__link Терминология
+							a(href="").sitemap__link.sitemap__link Виды цветников
 		.main-page
 			header.main-header.grid.grid--container.grid--no-gutters
 				.row
@@ -25,27 +88,26 @@ html(lang="ru")
 							a.main-nav__link(href="") Услуги
 							a.main-nav__link(href="") Наши проекты
 							a.main-nav__link(href="") Цены
-					.col.col--lg-2
+					.col.col--lg-2.col--xs-4
 						.main-header__logo
-							.logo
-								a(href="")
+							a(href="").logo
 						.main-header__title Линьково поле
 						.main-header__subtitle проектирование, озеленение &amp; благоустройство
-					.col.col--lg-5
+					.col.col--lg-5.col--xs-8
 						.main-header__city
 							.main-header__city_text Москва
 							.main-header__city_icon
 						.main-header__phone + 7  910  404-24-33
-						.menu
-							.menu__text Куча всего
-							.menu__icon
+						.menu-toggle.js-open-menu
+							.menu-toggle__text Куча всего
+							.menu-toggle__icon
 								span
 								span
 								span
 
 						
 			main.main-content.grid.grid--container.grid--no-gutters
-				.row
+				.row.slide.slide--active
 					.col.col--lg-1
 						.main-content__numbers
 							.main-content__numbers_number.main-content__numbers_number--active 01
@@ -55,19 +117,48 @@ html(lang="ru")
 							.main-content__numbers_number 05
 					.col.col--lg-3
 						.main-content__main-text
-							.main-content__main-text_ico
-							.main-content__main-text_text Создали более
-							.main-content__main-text_number 170 садов
+							.row
+								.col--lg-12.col--xs-3
+									.main-content__main-text_ico
+								.col--lg-12.col--xs-9
+									.main-content__main-text_container
+										span.main-content__main-text_text Создали более
+									.main-content__main-text_container
+										span.main-content__main-text_number 170 садов
 					.col.col--lg-4
-						.slider
-							- for (var i = 0; i < 6; i++)
-								.slider__slide
-									img(src="img/img-1.jpg", alt="")
-					.col.col--lg-3.col--lg-offset-1
+						.main-img
+							.main-img__img
+								img(src="img/img-1.jpg", alt="")
+					.col.col--lg-3.col--lg-offset-1.col--xs
 						.main-content__right-side
 							.main-content__right-side_text
 								p Каждый проект для нас - ценность. В него мы вложили частичку себя.
 								p Мы этим гордимся.
+							a(href="").btn.btn--primary заинтригованы
+				.row.slide
+					.col.col--lg-1
+						.main-content__numbers
+							.main-content__numbers_number 01
+							.main-content__numbers_number.main-content__numbers_number--active 02
+							.main-content__numbers_number 03
+							.main-content__numbers_number 04
+							.main-content__numbers_number 05
+					.col.col--lg-3
+						.main-content__main-text
+							.main-content__main-text_ico
+							.main-content__main-text_container
+								span.main-content__main-text_text Работаем для вас
+							.main-content__main-text_container
+								span.main-content__main-text_number с 1999 года
+					.col.col--lg-4
+						.main-img
+							.main-img__img
+								img(src="img/img-1.jpg", alt="")
+					.col.col--lg-3.col--lg-offset-1
+						.main-content__right-side
+							.main-content__right-side_text
+								p Все ошибки уже совершены, и сделаны выводы. 
+								p Для Вас же - только высокий профессионализм!
 							a(href="").btn.btn--primary заинтригованы
 
 
@@ -83,17 +174,21 @@ html(lang="ru")
 						a(href="").social-icons__icon
 							.icon.icon--instagram
 					.col.col--lg-3.col--lg-offset-5
-						.call-specialist
-							.call-specialist__icon
-							a(href="").call-specialist__link.link Вызвать специалиста
-						.main-footer__links
-							.main-footer__copyright COPYRIGHT 2017
-							.main-footer__webformula Создание сайта &mdash; 
-								a(href="") Webformula
+						.row
+							.col--lg-12.col--xs-6
+								.call-specialist
+									.call-specialist__icon
+									a(href="").call-specialist__link.link Вызвать специалиста
+							.col--lg-12.col--xs-6
+								.main-footer__links
+									.main-footer__copyright COPYRIGHT 2017
+									.main-footer__webformula Создание сайта &mdash; 
+										a(href="") Webformula
 
 
 
 	script(src="js/jquery.min.js")
-	script(src="js/slick.min.js")
-	//- script(src="js/owl.carousel.min.js")
+	//- script(src="js/slick.min.js")
+	script(src="js/jquery.mousewheel.js")
+	script(src="js/hammer.min.js")
 	script(src="js/main.js")
